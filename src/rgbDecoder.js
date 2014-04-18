@@ -4,8 +4,8 @@ var colorImageDecoder = (function (colorImageDecoder) {
 
     "use strict";
 
-    if(cornerstone === undefined) {
-        cornerstone = {};
+    if(colorImageDecoder === undefined) {
+        colorImageDecoder = {};
     }
 
     function decodeRGB(rgbBuffer, rgbaBuffer) {
